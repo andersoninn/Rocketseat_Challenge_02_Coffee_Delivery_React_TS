@@ -47,6 +47,7 @@ export function CoffeeCard({
          // Conferimos se o "contador" do reduce é === 1.
          // Se sim executamos o IF, onde filtramos o item com o "contador = 1" e altaramos uma propriedade dele.
          // "e.quantityOfCoffeeSelected" recebe a "quantityOfCoffeeSelected" anterior + a nova "quantityOfCoffeeSelected" .
+         
          if (testeReduce === 1) {
             const teste = listOfShoppingCart.filter((e: TCoffeeCart) =>
                e.coffee.name === name
