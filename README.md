@@ -6,7 +6,7 @@ Este repositório contém o **desafio final** do módulo 02 do curso React da Ro
 
 O projeto está **deployado** e você pode visualizá-lo online através do link abaixo:
 
-[Coffee Delivery - Vercel](https://rocketseat-challenge-02-coffee-delivery-react-ts-f9jn.vercel.app)
+[Coffee Delivery - Vercel](https://rocketseat-challenge-02-coffee-delivery-react-ts-f9jn.vercel.app](https://rocketseat-challenge-02-coffee-delivery-react-ts.vercel.app/)
 
 
 ## 🛠️ Tecnologias Utilizadas
