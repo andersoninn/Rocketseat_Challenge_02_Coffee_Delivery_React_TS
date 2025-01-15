@@ -2,6 +2,13 @@
 
 Este repositório contém o **desafio final** do módulo 02 do curso React da Rocketseat, onde o objetivo foi criar uma plataforma de **coffee-by-delivery**, utilizando **React + TypeScript**. O projeto foi desenvolvido seguindo um layout e briefing predefinidos, com foco em um design responsivo e na funcionalidade de um sistema de pedidos de café.
 
+## 🌐 Demo
+
+O projeto está **deployado** e você pode visualizá-lo online através do link abaixo:
+
+[Coffee Delivery - Vercel](https://rocketseat-challenge-02-coffee-delivery-react-ts-f9jn.vercel.app)
+
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **ReactJS**: Biblioteca para construção da interface de usuário.
