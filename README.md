@@ -52,6 +52,7 @@ Criação de um formulário de pedido usando React Hook Form para captura de dad
 Estilização dinâmica com Styled-Components e como estruturar o design de maneira modular.
 Persistência de dados no Local Storage para manter o carrinho de compras entre sessões.
 
+
 ---
 
 ✨ **Vamos nos conectar!**  
