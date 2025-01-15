@@ -1,27 +1,51 @@
-# React + TypeScript + Vite
+# ☕ Coffee Delivery - Desafio Final do Módulo 02 Rocketseat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o **desafio final** do módulo 02 do curso React da Rocketseat, onde o objetivo foi criar uma plataforma de **coffee-by-delivery**, utilizando **React + TypeScript**. O projeto foi desenvolvido seguindo um layout e briefing predefinidos, com foco em um design responsivo e na funcionalidade de um sistema de pedidos de café.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **ReactJS**: Biblioteca para construção da interface de usuário.
+- **TypeScript**: Tipagem estática para maior segurança e escalabilidade no código.
+- **React Context**: Para gerenciamento de estado global, como o carrinho de compras.
+- **Styled-Components**: Para estilização dinâmica e modular da interface.
+- **React Router**: Para navegação entre as diferentes páginas da aplicação.
+- **React Hook Form**: Para gerenciamento e validação de formulários, como os de pedido e checkout.
 
-## Expanding the ESLint configuration
+## 🎨 Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Carrinho de compras**: Adicionar, remover e atualizar itens no carrinho, com contagem de itens e valores totais.
+- **Formulário de pedido**: Preencher dados do cliente para realizar o pedido de entrega de café.
+- **Checkout**: Sistema de finalização de compra, incluindo envio de endereço e método de pagamento.
+- **Exibição de produtos**: Lista de cafés disponíveis com descrições e preços.
+- **Design responsivo**: Interface adaptável a diferentes dispositivos, com foco na experiência do usuário.
+- **Armazenamento no Local Storage**: Para persistência de dados do carrinho de compras.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Como Usar
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/andersoninn/Rocketseat_Challenge_02_Coffee_Delivery_React_TS.git
+   
+2. Instale as dependências:
+   ```bash
+   npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Inicie a aplicação:
+   ```bash
+   npm run dev
+ 
+4. Abra o navegador e acesse:
+   ```bash
+   http://localhost:3000
+
+## 📝 Lições Aprendidas
+Como usar React Context para gerenciamento de estado global, como o carrinho de compras.
+Implementação de React Router para navegação entre páginas, como a página de produtos e checkout.
+Criação de um formulário de pedido usando React Hook Form para captura de dados e validação.
+Estilização dinâmica com Styled-Components e como estruturar o design de maneira modular.
+Persistência de dados no Local Storage para manter o carrinho de compras entre sessões.
+
+---
+
+✨ **Vamos nos conectar!**  
+Se você gostou do projeto ou quer trocar ideias, [me encontre no LinkedIn](https://www.linkedin.com/in/andersoninn/). 😊
